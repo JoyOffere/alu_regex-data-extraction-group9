@@ -9,7 +9,7 @@ try:
         email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
         email_addresses = re.findall(email_pattern, text)
 
-        # Print the extracted email addresse
+        # Print the extracted email addresses
         for email in email_addresses:
             print(email)
     
