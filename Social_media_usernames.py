@@ -7,7 +7,7 @@ def extract_usernames(API_responses):
     return matches
 
 if __name__ == "__main__":
-    API_responses = "Check out this cool post by @user123 and follow @example_user!"
+    API_responses = "Check out this cool post by @user123 and follow @user789"
     usernames = extract_usernames(API_responses)
     print("Usernames:", usernames)
 
