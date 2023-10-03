@@ -1,13 +1,8 @@
 #!/usr/bin/python3
 import re
 
-#raw API response containing news headlines
-raw_data = """
-Here are some news headlines:
-Headline: Breaking News - Important Announcement
-Headline: Latest Updates - Weather Forecast
-Headline: Sports News - Exciting Match Results
-"""
+API_data = """ Headline: Breaking News - Important Announcement, Headline: Latest Updates - Weather Forecast, Headline: Sports News - Exciting Match Results...."""
+
 
 pattern = r'Headline: (.*?) - (.*?)'
 
