@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import re
 
 # Read text from an external text file
