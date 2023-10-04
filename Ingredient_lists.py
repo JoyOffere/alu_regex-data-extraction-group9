@@ -6,4 +6,4 @@ API_sample = "Ingredients: tomato, fish, onion, garlic, salt, pepper, olive oil,
 pattern = r"(\b\w+\b)(?:,|$)"
 ingredient_matches = re.findall(pattern, API_sample)
 ingredient_list = [ingredient.strip() for ingredient in ingredient_matches]
-print("Ingredients:", ingredient_list)
+print(', '.join(ingredient_list))
